@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    background-color: #e85a50;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#container {
+    max-width: 2080px;
+    width: 100vw;
+    background-color: #feffd6;
+    min-height: 100vh;
+}
+
+#header {
+    background-color: #010002;
+    padding: 20px;
+}
+
+#header h1 {
+    color: white;
+}
+
+#main {
+    padding: 20px;
+}
+
+#main h1, #main h2 {
+    text-align: center;
+}
